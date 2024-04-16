@@ -1,0 +1,151 @@
+body {
+  background-color: aquamarine;
+}
+
+header {
+  display: flex; /* Menggunakan flexbox */
+  justify-content: space-between; /* Menyebarkan elemen ke arah horizontal */
+  align-items: center; /* Mengatur vertikal tengah */
+  padding: 10px 20px; /* Padding untuk ruang di sekitar konten */
+  background-color: #333; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+}
+
+nav ul {
+  list-style-type: none; /* Menghilangkan bullet point */
+  padding: 0; /* Menghilangkan padding default */
+  margin: 0; /* Menghilangkan margin default */
+}
+
+nav ul li {
+  display: inline-block; /* Menampilkan item secara horizontal */
+  margin-left: 10px; /* Memberikan jarak antara item */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Menghilangkan margin kiri pada item pertama */
+}
+
+nav ul li a {
+  color: #fff; /* Warna teks link */
+  text-decoration: none; /* Menghilangkan underline pada link */
+  padding: 5px 10px; /* Padding untuk ruang di sekitar link */
+  border: 1px solid #fff; /* Garis tepi link */
+  border-radius: 3px; /* Membuat sudut link menjadi sedikit bulat */
+}
+
+nav ul li a:hover {
+  background-color: #fff; /* Warna latar belakang saat hover */
+  color: #333; /* Warna teks saat hover */
+}
+
+.news-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.marquee {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+article {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.footer-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.footer-section nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-section nav ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-section nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.promo-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo-section h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.promo-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.promo-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-promo {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-promo:hover {
+  background-color: #0056b3;
+}
